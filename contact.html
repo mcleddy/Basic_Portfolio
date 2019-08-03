@@ -1,31 +1,57 @@
 <!DOCTYPE html>
-<h1>Mary Leddy</h1>
+<body>
+    <ul>
+        <li><a href="file:///C:/Users/Mary/Basic_Portfolio/portfolio.html">Portfolio</a></li>
+        <li><a href="file:///C:/Users/Mary/Basic_Portfolio/index.html">About Me</a></li>
+    </ul>
 
-<div class=main>
-    
-    <h2>Contact</h2>
-    <hr>
-    <div id="container">
-        <form action="action_page.php">
+    <h1>Mary Leddy</h1>
 
-            <label for="name" id=name>Name</label>
-            <input type="text" id="name" name="Name" placeholder="Your name...">
+    <div class=main>
 
-            <label for="email">Email</label>
-            <input type="text" id="email" name="Email" placeholder="Your email...">
+        <h2>Contact</h2>
+        <hr>
+        <div id="container">
+            <form action="action_page.php">
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message"
-            style="height:200px"> </textarea>
+                <label for="name" id=name>Name</label>
+                <input type="text" id="name" name="Name" placeholder="Your name...">
 
-            <input type="submit" value="Submit" id=submit>
-        </form>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="Email" placeholder="Your email...">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" style="height:200px"> </textarea>
+
+                <input type="submit" value="Submit" id=submit>
+            </form>
+        </div>
     </div>
-</div>
-<footer>Copywright</footer>
-
+    <footer>Copywright</footer>
+</body>
 
 <style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  }
+
+    li {
+  float: left;
+    }
+
+    li a {
+  display: block;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+    }
+
 
     body 
         {background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/fishnets-and-hearts.png);
